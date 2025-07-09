@@ -218,7 +218,7 @@ body {
 }
 ```
 ## Output:
-![image](https://github.com/user-attachments/assets/30608e21-cf00-48ee-ac10-5366d0735b99)
+![image](https://github.com/user-attachments/assets/44f6d0ab-ecbd-4c0a-801d-281dc20cd060)
 
 ## Result:
 A landing page clone of Saveetha Engineering College’s Admission Enquiry form using HTML and CSS is designed successfully.
