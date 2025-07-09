@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: url('saveetha.jpg') center center/cover no-repeat;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  background: rgba(17, 0, 0, 0.3);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color:blanchedalmond;
+  font-size: 22px;
+}
+
+.form-container input,
+.form-container select {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.phone-group {
+  display: flex;
+  gap: 5px;
+}
+
+.phone-group select {
+  width: 30%;
+}
+
+.phone-group input {
+  width: 70%;
+}
+
+.two-cols {
+  display: flex;
+  gap: 10px;
+}
+
+.two-cols input {
+  flex: 1;
+}
+
+.captcha {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.captcha img {
+  width: 80px;
+  height: 30px;
+  background: #eee;
+  border-radius: 4px;
+}
+
+.checkbox {
+  font-size: 12px;
+  margin-top: 10px;
+  color: white;
+}
+
+.checkbox label {
+  display: flex;          
+  align-items:center; 
+  line-height: 1.4;        
+}
+
+.submit-btn {
+  width: 100%;
+  background: #d19a2e;
+  color: white;
+  padding: 12px;
+  border: none;
+  font-weight: bold;
+  border-radius: 6px;
+  margin-top: 15px;
+  
+}
+.login-link {
+  margin-top: 15px;
+  font-size: 13px;
+  text-align: center;
+  color:white;
+}
+
+@media (max-width: 768px) {
+  body {
+    justify-content: center;
+    padding: 10px;
+  }
+
+  .form-container {
+    width: 100%;
+  }
+}
